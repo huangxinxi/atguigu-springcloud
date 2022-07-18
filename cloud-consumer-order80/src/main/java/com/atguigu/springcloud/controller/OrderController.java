@@ -1,4 +1,4 @@
-package com.atguigu.springcloud.Controller;
+package com.atguigu.springcloud.controller;
 
 
 import com.atguigu.springcloud.entities.CommonResult;
@@ -21,7 +21,7 @@ import javax.annotation.Resource;
 @Slf4j
 public class OrderController {
 
-    public static final String PAYMENT_URL = "HTTP://localhost:8001";
+    public static final String PAYMENT_URL = "HTTP://CLOUD-PAYMENT-SERVICE";
     @Resource
     private RestTemplate restTemplate;
 
